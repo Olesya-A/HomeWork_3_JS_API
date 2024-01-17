@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.like {
+  fill: rgb(248, 152, 221);
+}
+
+.selectImg {
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.selectImg:hover {
+  background-color: antiquewhite;
+}
+
+.bio {
+  width: 50%;
+  text-align: center;
+}
+
+.insta {
+  text-align: center;
+}
